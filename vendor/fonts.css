@@ -1,0 +1,22 @@
+/* Variable fonts usage:
+:root { font-family: "outfit", sans-serif; }
+@supports (font-variation-settings: normal) {
+  :root { font-family: "InterVariable", sans-serif; font-optical-sizing: auto; }
+} */
+
+@font-face {
+  font-family: "outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/Outfit-Regular.ttf") format(".ttf");
+}
+
+@font-face {
+  font-family: "outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/Outfit-Bold.ttf") format(".ttf");
+}
+

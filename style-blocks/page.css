@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "Outfit";
+    src: url("../vendor/fonts/Outfit-Regular.woff2") format(woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url("../vendor/fonts/Outfit-Bold.ttf") format(woff);
+    font-weight: bold;
+    font-style: normal;
+}
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color:hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;}
